@@ -1,8 +1,47 @@
 h1{
+  text-align: center;
   color: blue;
   background: orange;
+  border: 6px inset blue;
+  text-shadow: 3px 3px green;
+}
+
+div {
+  position: relative;
+  animation: mymove 5s infinite;
+   
+}
+
+@keyframes mymove {
+  0% {left: 0px;}
+  33% {left: 130px;}
+  100% {left: 0px;}
+
 }
 
 body {
   background: LightBlue;
+  font-family: 'Courier New'
+}
+
+#SkiingScene{
+border: 4px inset black
+}
+
+#SkiingPerson{
+border: 4px inset black
+}
+
+.links:hover {
+	color: red;
+}
+
+.links:visited {
+	color: purple;
+}
+
+#button{
+color: blueViolet;
+background: cyan;
+border: 1px solid black;
 }
