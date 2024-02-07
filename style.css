@@ -1,25 +1,23 @@
 h1{
   text-align: center;
-  border: 6px inset blue;
   text-shadow: 3px 3px green;
 }
+
 
 div {
   position: relative;
   animation-timing-function: linear;
   animation: mymove 5s infinite;
-   
 }
 
+
+
 @keyframes mymove {
-  0% {background: orange; color: blue; left: 0px;}
-  33% {background: blue; color: yellow; left: 130px;}
-  100% {background: yellow; color: red; left: 0px;}
-  33% {background: red; color: green; left: 130px;}
-  0% {background: green; color: orange; left: 0px;}
-
-
-
+  0% { border: 5px inset blue; background: orange; color: blue; left: 0px;}
+  33% {border: 5px inset coral; background: blue; color: yellow; left: 130px;}
+  100% {border: 5px inset MediumSlateBlue; background: cadetBlue; color: red; left: 0px;}
+  33% {border: 5px inset darkOrchid; background: red; color: darkOrchid; left: 130px;}
+  0% {border: 5px inset lightSalmon; background: green; color: orange; left: 0px;}
 }
 
 body {
@@ -28,11 +26,15 @@ body {
 }
 
 #SkiingScene{
+display: block;
+margin: auto;
 border: 4px inset black;
 width: 50%;
 }
 
 #SkiingPerson{
+display: block;
+margin: auto;
 border: 4px inset black;
 width: 50%;
 
